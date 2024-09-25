@@ -1,0 +1,22 @@
+.main{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 50vh;
+    position: relative;
+    /* background-color: #b92f2f; */
+}
+
+.main .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #585858;
+    /* background-color: blueviolet; */
+}
+
+.main .nav img{
+    width: 40px;
+    border-radius: 50%;
+}
