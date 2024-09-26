@@ -6,7 +6,7 @@ const Sidebar = () => {
   const [extended, setExtended] = useState(false)
   return (
     <div className='sidebar'>
-        <di className="top">
+        <div className="top">
             <img onClick={()=>setExtended(prev=>!prev)}className='menu' src={assets.menu_icon} alt="" />
             <div className="new-chat">
               <img src={assets.plus_icon} alt="" />
@@ -20,7 +20,7 @@ const Sidebar = () => {
               </div>
             </div>:null}
             
-        </di>
+        </div>
         <div className="bottom">
           <div className="bottom-item recent-entry">
             <img src={assets.question_icon} alt="" />
